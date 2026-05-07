@@ -17,4 +17,11 @@ public class Main {
 		return name+" "+address;
 	}
 
+	@Override
+	public String toString() {
+		return "Main [name=" + name + ", address=" + address + "]";
+	}
+	
+	
+
 }
